@@ -151,7 +151,7 @@ const InvoiceList = () => {
         {/* Header */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6 gap-4">
           <div>
-            <h1 className="text-3xl font-bold text-gray-900">Invoices</h1>
+            <h1 className="text-3xl font-bold text-gray-900">Genesis Invoices</h1>
             <p className="text-gray-600 mt-1">{filteredAndSortedInvoices.length} invoice(s)</p>
           </div>
           <button

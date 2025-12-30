@@ -138,7 +138,8 @@ const InvoiceContent = ({ invoice, status, totals }) => {
       <div className="flex justify-between items-start mb-6 pb-6 border-b-2 border-gray-200 invoice-header">
         <div>
           <h1 className="text-2xl font-bold text-gray-900 mb-1">Genesis Invoice</h1>
-          <p className="text-xs text-gray-600">Invoice Management System</p>
+          <p className="text-sm text-gray-600 font-medium">Your Company Name</p>
+          <p className="text-xs text-gray-500">Invoice Management System</p>
         </div>
         <div className="text-right">
           <div className="mb-3">
@@ -157,8 +158,8 @@ const InvoiceContent = ({ invoice, status, totals }) => {
         <div>
           <h3 className="text-xs font-semibold text-gray-700 uppercase mb-2">Bill From</h3>
           <div className="text-sm text-gray-600">
-            <p className="font-semibold text-gray-900">Genesis Invoice</p>
-            <p>Your Company Name</p>
+            <p className="font-semibold text-gray-900">Your Company Name</p>
+            <p>Genesis Invoice</p>
             <p>Your Address</p>
             <p>Your City, Country</p>
           </div>
